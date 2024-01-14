@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@100;500;600;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.header {
+    height: 400px;
+    background-image: url(https://hempindustrydaily.com/wp-content/uploads/2018/04/cbd-69669557_l-1024x681.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+
+}
+
+.main {
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1500px;
+
+}
+
+.div1, .div2, .div3 {
+    padding: 0;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgb(231, 255, 237);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.div1>h2 {
+    font-weight: 700;
+    font-size: 32px;
+    background-color: rgb(198, 235, 152);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.div2>h2 {
+    font-weight: 700;
+    font-size: 32px;
+    background-color: rgb(198, 235, 152);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 600px;
+    position: absolute;
+}
+
+.div1>p {
+    right: 30px;
+    top: 130px;
+    position: absolute;
+    width: 40%;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.div2>p {
+    left: 30px;
+    top: 740px;
+    position: absolute;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.2;
+    padding: 15px;
+}
+.div3>p{
+    left: 20%;
+    top: 1300px;
+    position: absolute;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.2;
+    padding: 15px;
+}
+
+.main div>#canabis {
+    left: 40px;
+    top: 160px;
+    position: absolute;
+    width: 50%;
+}
+
+.main div>#med-canabis {
+    right: 30px;
+    top: 760px;
+    position: absolute;
+    width: 42%;
+    height: 450px;
+}
+
+.main div>#canabiRef {
+
+    font-weight: 600;
+    padding-left: 10px;
+    color: rgb(72, 194, 47);
+    letter-spacing: 2px;
+    font-style: italic;
+    right: 360px;
+    top: 600px;
+    position: absolute;
+
+}
+
+.main div>#med-canabisRef {
+    font-weight: 600;
+    padding-left: 10px;
+    color: rgb(72, 194, 47);
+    letter-spacing: 2px;
+    font-style: italic;
+    left: 30px;
+    top: 1270px;
+    position: absolute;
+}
+.div3>a{
+    left: 860px;
+    top: 1315px;
+    position: absolute;
+    width: 50%;
+    font-style: italic;
+}
